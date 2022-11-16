@@ -1,0 +1,23 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    gap: 15px;
+
+    &__row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        &__cell {
+            width: 15%;
+        }
+    }
+}
+
+.data-cell {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
